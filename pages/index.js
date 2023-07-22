@@ -2,16 +2,11 @@ import Head from 'next/head';
 import { BsFillMoonStarsFill } from 'react-icons/bs';
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import Image from 'next/image';
-import avatar from '../public/avatar.png'
 import ubm from '../public/ubm.png'
 import bangkit from '../public/bangkit.jpg'
-import web1 from '../public/web1.png'
-import web2 from '../public/web2.png'
-import web3 from '../public/web3.png'
-import web4 from '../public/web4.png'
-import web5 from '../public/web5.png'
-import web6 from '../public/web6.png'
-import { useState } from 'react';
+import covidtracker from '../public/covidtracker.png'
+import githubuser from '../public/githubuser.png'
+import renata from '../public/renata.png'
 
 export default function Home() {
   return (
@@ -84,22 +79,13 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
-              <Image src={web1} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
+              <Image src={covidtracker} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
             </div>
             <div className="basis-1/3 flex-1 ">
-              <Image src={web2} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
+              <Image src={githubuser} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
             </div>
             <div className="basis-1/3 flex-1 ">
-              <Image src={web3} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
-            </div>
-            <div className="basis-1/3 flex-1 ">
-              <Image src={web4} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
-            </div>
-            <div className="basis-1/3 flex-1 ">
-              <Image src={web5} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
-            </div>
-            <div className="basis-1/3 flex-1 ">
-              <Image src={web6} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
+              <Image src={renata} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
             </div>
           </div>
         </section>
