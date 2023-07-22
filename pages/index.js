@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { BsFillMoonStarsFill } from 'react-icons/bs';
-import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillLinkedin, AiFillFilePdf } from 'react-icons/ai';
 import Image from 'next/image';
 import ubm from '../public/ubm.png'
 import bangkit from '../public/bangkit.jpg'
@@ -30,6 +30,9 @@ export default function Home() {
             </a>
             <a href="https://github.com/AudiHagi">
               <AiFillGithub />
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=1HSgKsefLSbXI81YDYobFlfLt-iJK_zUc">
+              <AiFillFilePdf />
             </a>
           </div>
         </section>
