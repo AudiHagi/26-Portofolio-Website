@@ -7,6 +7,7 @@ import bangkit from '../public/bangkit.jpg'
 import covidtracker from '../public/covidtracker.png'
 import githubuser from '../public/githubuser.png'
 import renata from '../public/renata.png'
+import todo from '../public/todo.png'
 
 export default function Home() {
   return (
@@ -89,6 +90,9 @@ export default function Home() {
             </div>
             <div className="basis-1/3 flex-1 ">
               <Image src={renata} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
+            </div>
+            <div className="basis-1/3 flex-1 ">
+              <Image src={todo} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
             </div>
           </div>
         </section>
