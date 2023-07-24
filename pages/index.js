@@ -83,16 +83,24 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
-              <Image src={covidtracker} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
+              <a href="#">
+                <Image src={covidtracker} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
+              </a>
             </div>
             <div className="basis-1/3 flex-1 ">
-              <Image src={githubuser} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
+              <a href="#">
+                <Image src={githubuser} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
+              </a>
             </div>
             <div className="basis-1/3 flex-1 ">
-              <Image src={renata} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
+              <a href="#">
+                <Image src={renata} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
+              </a>
             </div>
             <div className="basis-1/3 flex-1 ">
-              <Image src={todo} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
+              <a href="#">
+                <Image src={todo} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
+              </a>
             </div>
           </div>
         </section>
