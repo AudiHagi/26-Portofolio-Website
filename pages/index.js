@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import { BsFillMoonStarsFill } from 'react-icons/bs';
 import { AiFillGithub, AiFillLinkedin, AiFillFilePdf } from 'react-icons/ai';
 import Image from 'next/image';
 import ubm from '../public/ubm.png'
@@ -10,15 +9,17 @@ import renata from '../public/renata.png'
 import todo from '../public/todo.png'
 import courseschedule from '../public/courseschedule.png'
 import habittracer from '../public/habittracker.png'
+import story from '../public/story.png'
 
 export default function Home() {
   return (
     <div>
       <Head>
+
         <title>Audi Hagi Portofolio</title>
-        <meta></meta>
-        <link></link>
+
       </Head>
+
       <main className="bg-white px-10 md:px-20 lg:px-40">
 
         <section className="min-h-screen flex flex-col justify-center items-center">
@@ -75,7 +76,6 @@ export default function Home() {
           </div>
         </section>
 
-
         <section className="min-h-screen">
           <div>
             <h3 className="text-3xl py-1">Portofolio</h3>
@@ -85,39 +85,45 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
-              <a href="#">
+              <a href="https://drive.google.com/drive/folders/1ruBOmTx_PgbqLSCczrGuvq9SLKQr3aMh?usp=sharing">
                 <Image src={covidtracker} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
               </a>
             </div>
             <div className="basis-1/3 flex-1 ">
-              <a href="#">
+              <a href="https://drive.google.com/drive/folders/1ruBOmTx_PgbqLSCczrGuvq9SLKQr3aMh?usp=sharing">
                 <Image src={githubuser} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
               </a>
             </div>
             <div className="basis-1/3 flex-1 ">
-              <a href="#">
+              <a href="https://drive.google.com/drive/folders/1ruBOmTx_PgbqLSCczrGuvq9SLKQr3aMh?usp=sharing">
                 <Image src={renata} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
               </a>
             </div>
             <div className="basis-1/3 flex-1 ">
-              <a href="#">
+              <a href="https://drive.google.com/drive/folders/1ruBOmTx_PgbqLSCczrGuvq9SLKQr3aMh?usp=sharing">
                 <Image src={todo} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
               </a>
             </div>
             <div className="basis-1/3 flex-1 ">
-              <a href="#">
+              <a href="https://drive.google.com/drive/folders/1ruBOmTx_PgbqLSCczrGuvq9SLKQr3aMh?usp=sharing">
                 <Image src={courseschedule} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
               </a>
             </div>
             <div className="basis-1/3 flex-1 ">
-              <a href="#">
+              <a href="https://drive.google.com/drive/folders/1ruBOmTx_PgbqLSCczrGuvq9SLKQr3aMh?usp=sharing">
                 <Image src={habittracer} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
+              </a>
+            </div>
+            <div className="basis-1/3 flex-1 ">
+              <a href="https://drive.google.com/drive/folders/1ruBOmTx_PgbqLSCczrGuvq9SLKQr3aMh?usp=sharing">
+                <Image src={story} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
               </a>
             </div>
           </div>
         </section>
 
       </main>
+
     </div >
   );
 }
