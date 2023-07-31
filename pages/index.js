@@ -85,32 +85,32 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
-              <a href="https://drive.google.com/drive/folders/1ruBOmTx_PgbqLSCczrGuvq9SLKQr3aMh?usp=sharing">
+              <a href="https://drive.google.com/file/d/1xS7-8xOB7MvbDjmWfE5c4NXTvYnArq6b/view?usp=sharing">
                 <Image src={covidtracker} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
               </a>
             </div>
             <div className="basis-1/3 flex-1 ">
-              <a href="https://drive.google.com/drive/folders/1ruBOmTx_PgbqLSCczrGuvq9SLKQr3aMh?usp=sharing">
+              <a href="https://drive.google.com/file/d/1vWiwuss5RTt6djH2c20QtTZXWA0M67QQ/view?usp=sharing">
                 <Image src={githubuser} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
               </a>
             </div>
             <div className="basis-1/3 flex-1 ">
-              <a href="https://drive.google.com/drive/folders/1ruBOmTx_PgbqLSCczrGuvq9SLKQr3aMh?usp=sharing">
+              <a href="https://drive.google.com/file/d/1OXZu0xmSzGV8Wz85qv1rolYBW9Kshtez/view?usp=sharing">
                 <Image src={renata} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
               </a>
             </div>
             <div className="basis-1/3 flex-1 ">
-              <a href="https://drive.google.com/drive/folders/1ruBOmTx_PgbqLSCczrGuvq9SLKQr3aMh?usp=sharing">
+              <a href="https://drive.google.com/file/d/1xPrYc-2SRwljCIxcgDHd4AqhKi_PDZ4v/view?usp=sharing">
                 <Image src={todo} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
               </a>
             </div>
             <div className="basis-1/3 flex-1 ">
-              <a href="https://drive.google.com/drive/folders/1ruBOmTx_PgbqLSCczrGuvq9SLKQr3aMh?usp=sharing">
+              <a href="https://drive.google.com/file/d/1axaMz66apuagTSPDbhMRfMG6NI3_mzC2/view?usp=sharing">
                 <Image src={courseschedule} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
               </a>
             </div>
             <div className="basis-1/3 flex-1 ">
-              <a href="https://drive.google.com/drive/folders/1ruBOmTx_PgbqLSCczrGuvq9SLKQr3aMh?usp=sharing">
+              <a href="https://drive.google.com/file/d/1Y-EBEZnYOjDLduG_6lxvU-_n4_-nEA3H/view?usp=sharing">
                 <Image src={habittracer} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
               </a>
             </div>
