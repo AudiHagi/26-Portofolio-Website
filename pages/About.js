@@ -10,9 +10,9 @@ export default function About() {
         <h3 className="text-2xl py-2 md:text-3xl">
           Android and Website Development
         </h3>
-        {/* <p className="text-md leading-8 text-gray-800 md:text-xl max-w-lg mx-auto">
+        <p className="text-md leading-8 text-gray-800 md:text-xl max-w-lg mx-auto">
           Informatics Undergraduate Student
-        </p> */}
+        </p>
       </div>
       <div className="text-5xl flex justify-center gap-16 text-gray-600">
         <a href="https://www.linkedin.com/in/audihagi">
