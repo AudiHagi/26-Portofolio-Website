@@ -1,4 +1,4 @@
-export default function Navbar() {
+const Navbar = () => {
   return (
     <nav class="flex flex-col justify-center items-center flex-wrap bg-teal-600 p-2 sticky top-0">
       <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
@@ -32,3 +32,5 @@ export default function Navbar() {
     </nav>
   );
 }
+
+export default Navbar

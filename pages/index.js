@@ -1,9 +1,9 @@
 import Head from "next/head";
-import Navigation from "./Navbar";
-import About from "./About";
-import Education from "./Education";
-import MobilePorto from "./MobilePorto";
-import WebsitePorto from "./WebsitePorto";
+import Navigation from "./utilities/Navbar/Navbar";
+import About from "./about/page";
+import Education from "./education/page";
+import MobilePorto from "./mobile/page";
+import WebsitePorto from "./website/page";
 
 export default function Home() {
   return (

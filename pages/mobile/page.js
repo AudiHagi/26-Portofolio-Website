@@ -1,14 +1,14 @@
 import Image from "next/image";
-import covidtracker from "../public/asset/images/mobile/covidtracker.png";
-import githubuser from "../public/asset/images/mobile/githubuser.png";
-import renata from "../public/asset/images/mobile/renata.png";
-import todo from "../public/asset/images/mobile/todo.png";
-import courseschedule from "../public/asset/images/mobile/courseschedule.png";
-import habittracer from "../public/asset/images/mobile/habittracker.png";
-import story from "../public/asset/images/mobile/story.png";
-import moviesync from "../public/asset/images/mobile/moviesync.png";
+import covidtracker from "../../public/asset/images/mobile/covidtracker.png";
+import githubuser from "../../public/asset/images/mobile/githubuser.png";
+import renata from "../../public/asset/images/mobile/renata.png";
+import todo from "../../public/asset/images/mobile/todo.png";
+import courseschedule from "../../public/asset/images/mobile/courseschedule.png";
+import habittracer from "../../public/asset/images/mobile/habittracker.png";
+import story from "../../public/asset/images/mobile/story.png";
+import moviesync from "../../public/asset/images/mobile/moviesync.png";
 
-export default function MobilePorto() {
+const MobilePorto = () => {
   return (
     <div>
       <div
@@ -130,3 +130,5 @@ export default function MobilePorto() {
     </div>
   );
 }
+
+export default MobilePorto

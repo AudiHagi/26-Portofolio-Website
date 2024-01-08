@@ -1,8 +1,8 @@
 import Image from "next/image";
-import ubm from "../public/asset/images/ubm.png";
-import bangkit from "../public/asset/images/bangkit.jpg";
+import ubm from "../../public/asset/images/ubm.png";
+import bangkit from "../../public/asset/images/bangkit.jpg";
 
-export default function Education() {
+const Education = () => {
   return (
     <div>
       <div
@@ -70,3 +70,5 @@ export default function Education() {
     </div>
   );
 }
+
+export default Education

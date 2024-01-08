@@ -1,6 +1,6 @@
 import { AiFillGithub, AiFillLinkedin, AiFillFilePdf } from "react-icons/ai";
 
-export default function About() {
+const About = () => {
   return (
     <section className="min-h-screen flex flex-col justify-center items-center">
       <div className="text-center p-10">
@@ -21,10 +21,12 @@ export default function About() {
         <a href="https://github.com/AudiHagi">
           <AiFillGithub />
         </a>
-        <a href="https://drive.google.com/uc?export=download&id=1HSgKsefLSbXI81YDYobFlfLt-iJK_zUc">
+        <a href="https://drive.google.com/file/d/1BNjFoUdMm0Q4xhq3Kt165mxwCZVFoV9V/view?usp=sharing">
           <AiFillFilePdf />
         </a>
       </div>
     </section>
   );
 }
+
+export default About

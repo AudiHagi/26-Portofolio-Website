@@ -1,11 +1,11 @@
 import Image from "next/image";
-import flavorfulfeastweb from "../public/asset/images/website/flavorfulfeast-web.png";
-import linktryweb from "../public/asset/images/website/linktry-web.png";
-import moviesyncweb from "../public/asset/images/website/moviesync-web.png";
-import portofolioweb from "../public/asset/images/website/portofolio-web.png";
+import flavorfulfeastweb from "../../public/asset/images/website/flavorfulfeast-web.png";
+import linktryweb from "../../public/asset/images/website/linktry-web.png";
+import moviesyncweb from "../../public/asset/images/website/moviesync-web.png";
+import portofolioweb from "../../public/asset/images/website/portofolio-web.png";
 
 
-export default function WebsitePorto() {
+const WebsitePorto = () => {
   return (
     <div>
       <div
@@ -81,3 +81,5 @@ export default function WebsitePorto() {
     </div>
   );
 }
+
+export default WebsitePorto
