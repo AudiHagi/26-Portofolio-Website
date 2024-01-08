@@ -7,6 +7,7 @@ import courseschedule from "../../public/asset/images/mobile/courseschedule.png"
 import habittracer from "../../public/asset/images/mobile/habittracker.png";
 import story from "../../public/asset/images/mobile/story.png";
 import moviesync from "../../public/asset/images/mobile/moviesync.png";
+import Link from "next/link";
 
 const MobilePorto = () => {
   return (
@@ -38,7 +39,7 @@ const MobilePorto = () => {
         </div>
         <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
           <div className="basis-1/3 flex-1 ">
-            <a>
+            <a target="_blank" href="https://www.dropbox.com/scl/fi/juwh30z5fl54rjqpe17d1/Covid-19-Tracker.apk?rlkey=vlhi9u11iujcrcod7lxzzr6dv&dl=0">
               <Image
                 src={covidtracker}
                 className="rounded-lg object-cover"
@@ -49,7 +50,7 @@ const MobilePorto = () => {
             </a>
           </div>
           <div className="basis-1/3 flex-1 ">
-            <a>
+            <a target="_blank" href="https://www.dropbox.com/scl/fi/nj0c1ijngo73nlykmi4mr/Github-User.apk?rlkey=9wa6vmt24n4jts22o8clyytxm&dl=0">
               <Image
                 src={githubuser}
                 className="rounded-lg object-cover"
@@ -60,7 +61,7 @@ const MobilePorto = () => {
             </a>
           </div>
           <div className="basis-1/3 flex-1 ">
-            <a>
+            <a target="_blank" href="https://www.dropbox.com/scl/fi/c38j0o55pz44z075y8pq9/Renata.apk?rlkey=acmjn4nnz1n79xtk6c24b7c5c&dl=0">
               <Image
                 src={renata}
                 className="rounded-lg object-cover"
@@ -71,7 +72,7 @@ const MobilePorto = () => {
             </a>
           </div>
           <div className="basis-1/3 flex-1 ">
-            <a>
+            <a target="_blank" href="https://www.dropbox.com/scl/fi/6qezioecuvey2chqd4dsg/Todo-App.apk?rlkey=evukvd4bi71254g4kninv0c2s&dl=0">
               <Image
                 src={todo}
                 className="rounded-lg object-cover"
@@ -82,7 +83,7 @@ const MobilePorto = () => {
             </a>
           </div>
           <div className="basis-1/3 flex-1 ">
-            <a>
+            <a target="_blank" href="https://www.dropbox.com/scl/fi/qz572ce4vptndekwoaml8/Course-Schedule.apk?rlkey=1ufxdyik7jw7wwgdn261v5i4m&dl=0">
               <Image
                 src={courseschedule}
                 className="rounded-lg object-cover"
@@ -93,7 +94,7 @@ const MobilePorto = () => {
             </a>
           </div>
           <div className="basis-1/3 flex-1 ">
-            <a>
+            <a target="_blank" href="https://www.dropbox.com/scl/fi/1n4v2rhxc4iw2goeugzzt/Habit-Tracker.apk?rlkey=bpw8ylt4n4qtrjyul26nnrr13&dl=0">
               <Image
                 src={habittracer}
                 className="rounded-lg object-cover"
@@ -104,7 +105,7 @@ const MobilePorto = () => {
             </a>
           </div>
           <div className="basis-1/3 flex-1 ">
-            <a>
+            <a target="_blank" href="https://www.dropbox.com/scl/fi/f0c123n1rnd1ydt7fumov/Story-App.apk?rlkey=c5054bkzqmtg0muor05ornvvn&dl=0">
               <Image
                 src={story}
                 className="rounded-lg object-cover"
