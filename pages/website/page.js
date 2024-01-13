@@ -1,8 +1,8 @@
 import Image from "next/image";
-import flavorfulfeastweb from "../../public/asset/images/website/flavorfulfeast-web.png";
-import linktryweb from "../../public/asset/images/website/linktry-web.png";
-import moviesyncweb from "../../public/asset/images/website/moviesync-web.png";
-import portofolioweb from "../../public/asset/images/website/portofolio-web.png";
+import flavorfulfeastweb from "../../public/asset/images/website/flavorfulfeast-web.webp";
+import linktryweb from "../../public/asset/images/website/linktry-web.webp";
+import moviesyncweb from "../../public/asset/images/website/moviesync-web.webp";
+import portofolioweb from "../../public/asset/images/website/portofolio-web.webp";
 
 
 const WebsitePorto = () => {

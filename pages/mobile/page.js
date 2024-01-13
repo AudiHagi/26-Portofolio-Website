@@ -1,12 +1,12 @@
 import Image from "next/image";
-import covidtracker from "../../public/asset/images/mobile/covidtracker.png";
-import githubuser from "../../public/asset/images/mobile/githubuser.png";
-import renata from "../../public/asset/images/mobile/renata.png";
-import todo from "../../public/asset/images/mobile/todo.png";
-import courseschedule from "../../public/asset/images/mobile/courseschedule.png";
-import habittracer from "../../public/asset/images/mobile/habittracker.png";
-import story from "../../public/asset/images/mobile/story.png";
-import moviesync from "../../public/asset/images/mobile/moviesync.png";
+import covidtracker from "../../public/asset/images/mobile/covidtracker.webp";
+import githubuser from "../../public/asset/images/mobile/githubuser.webp";
+import renata from "../../public/asset/images/mobile/renata.webp";
+import todo from "../../public/asset/images/mobile/todo.webp";
+import courseschedule from "../../public/asset/images/mobile/courseschedule.webp";
+import habittracer from "../../public/asset/images/mobile/habittracker.webp";
+import story from "../../public/asset/images/mobile/story.webp";
+import moviesync from "../../public/asset/images/mobile/moviesync.webp";
 import Link from "next/link";
 
 const MobilePorto = () => {
