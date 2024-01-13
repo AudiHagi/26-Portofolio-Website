@@ -6,7 +6,7 @@ const Education = () => {
   return (
     <div>
       <div
-        class="flex flex-col justify-center items-center flex-wrap p-20 lg:p-4"
+        className="flex flex-col justify-center items-center flex-wrap p-20 lg:p-4"
         id="Education"
       ></div>
 

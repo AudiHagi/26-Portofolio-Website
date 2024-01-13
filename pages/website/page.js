@@ -9,7 +9,7 @@ const WebsitePorto = () => {
   return (
     <div>
       <div
-        class="flex flex-col justify-center items-center flex-wrap p-20 lg:p-4"
+        className="flex flex-col justify-center items-center flex-wrap p-20 lg:p-4"
         id="WebsitePorto"
       ></div>
 
@@ -37,8 +37,8 @@ const WebsitePorto = () => {
               <Image
                 src={linktryweb}
                 className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
+                width={500}
+                height={300}
                 layout="responsive"
               />
             </a>
@@ -48,8 +48,8 @@ const WebsitePorto = () => {
               <Image
                 src={moviesyncweb}
                 className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
+                width={500}
+                height={300}
                 layout="responsive"
               />
             </a>
@@ -59,8 +59,8 @@ const WebsitePorto = () => {
               <Image
                 src={portofolioweb}
                 className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
+                width={500}
+                height={300}
                 layout="responsive"
               />
             </a>
@@ -70,8 +70,8 @@ const WebsitePorto = () => {
               <Image
                 src={flavorfulfeastweb}
                 className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
+                width={500}
+                height={300}
                 layout="responsive"
               />
             </a>

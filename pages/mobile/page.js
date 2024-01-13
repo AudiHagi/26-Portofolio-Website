@@ -7,13 +7,12 @@ import courseschedule from "../../public/asset/images/mobile/courseschedule.webp
 import habittracer from "../../public/asset/images/mobile/habittracker.webp";
 import story from "../../public/asset/images/mobile/story.webp";
 import moviesync from "../../public/asset/images/mobile/moviesync.webp";
-import Link from "next/link";
 
 const MobilePorto = () => {
   return (
     <div>
       <div
-        class="flex flex-col justify-center items-center flex-wrap p-20 lg:p-4"
+        className="flex flex-col justify-center items-center flex-wrap p-20 lg:p-4"
         id="MobilePorto"
       ></div>
 
@@ -43,8 +42,8 @@ const MobilePorto = () => {
               <Image
                 src={covidtracker}
                 className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
+                width={500}
+                height={300}
                 layout="responsive"
               />
             </a>
@@ -54,8 +53,8 @@ const MobilePorto = () => {
               <Image
                 src={githubuser}
                 className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
+                width={500}
+                height={300}
                 layout="responsive"
               />
             </a>
@@ -65,8 +64,8 @@ const MobilePorto = () => {
               <Image
                 src={renata}
                 className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
+                width={500}
+                height={300}
                 layout="responsive"
               />
             </a>
@@ -76,8 +75,8 @@ const MobilePorto = () => {
               <Image
                 src={todo}
                 className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
+                width={500}
+                height={300}
                 layout="responsive"
               />
             </a>
@@ -87,8 +86,8 @@ const MobilePorto = () => {
               <Image
                 src={courseschedule}
                 className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
+                width={500}
+                height={300}
                 layout="responsive"
               />
             </a>
@@ -98,8 +97,8 @@ const MobilePorto = () => {
               <Image
                 src={habittracer}
                 className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
+                width={500}
+                height={300}
                 layout="responsive"
               />
             </a>
@@ -109,8 +108,8 @@ const MobilePorto = () => {
               <Image
                 src={story}
                 className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
+                width={500}
+                height={300}
                 layout="responsive"
               />
             </a>
@@ -120,8 +119,8 @@ const MobilePorto = () => {
               <Image
                 src={moviesync}
                 className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
+                width={500}
+                height={300}
                 layout="responsive"
               />
             </a>
