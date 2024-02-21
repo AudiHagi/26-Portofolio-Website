@@ -21,7 +21,7 @@ const About = () => {
         <a href="https://github.com/AudiHagi">
           <AiFillGithub />
         </a>
-        <a href="https://drive.google.com/file/d/1BNjFoUdMm0Q4xhq3Kt165mxwCZVFoV9V/view?usp=sharing">
+        <a href="https://drive.google.com/file/d/1ZjrlMuv9Iuu4H6wfgHsYEGEoLVfX4CKt/view?usp=sharing">
           <AiFillFilePdf />
         </a>
       </div>
